@@ -1,0 +1,136 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+#container{
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+.topblack{
+		width: 1000px;
+		height: 50px;
+		margin: 0px;
+		background-color: #000000;
+}
+.logobanner{
+		width: 1000px;
+		height: 150px;
+		margin: 0px;
+		padding: 0px;		
+		background-color: #000000;
+		display: block;
+		float: left;
+		}
+img.logobannerleft{
+	margin-left: 100px;
+	margin-right: 42px;
+}
+img.logobannercenter{
+	margin: 0px 50px 0px 50px;
+}
+img.logobannerright{
+	margin-top: 0px;
+}
+.menu{
+		width: 1000px;
+		height: 50px;
+		background-image: url("images/menu background.jpg");
+		background-repeat: repeat-x;
+		margin: 0px;
+		background-color: #000000;
+		float: left;
+		display: table;
+		font-family: arial;
+		font-size: 0.9em;
+}
+.banner{
+	width: 1000px;
+	height: 400px;
+	margin: 0px 0px 100px 0px;
+}
+.abox, .bbox, .cbox, .dbox{
+	width: 240px;
+	height: 200px;
+	background-color: #ffffff;
+	float: left;
+	margin: 100px 10px 40px 0px;
+	font-family: arial;
+}
+
+.boxallign{
+	float: left;
+}
+.welcome{
+	width: 1000px;
+	margin: 50px 10px 50px 100px;
+	font-family: arial;
+}
+.content{
+	width: 1000px;
+	height: 200px;
+	margin: 10px 10px 0px 100px;
+	font-family: arial;
+	font-style: italic;
+	font-size: 1em;
+}
+
+.footer{
+		width: 1000px;
+		height: 50px;
+		margin: 50px 0px 0px 0px;
+		background-color: #000000;
+		text-align: center;
+}
+a.navi{
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.1em;
+	margin: 30px;
+}
+a.hover{
+	color: yellow;
+}
+
+img.navi{
+	vertical-align: middle;
+	display: table-cell;
+}
+span{
+	vertical-align: middle;
+	display: table-cell;
+}
+p.box{
+	margin-top: -20px;
+	margin-left: 10px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	text-align: justify;
+	font-family: arial;
+	font-style: italic;
+	font-size: 0.8em;
+}
+a.box{
+	margin-left: 10px;
+}
+img.content{
+	margin: 0px;
+	width: 214px;
+	height: 178px;
+}
+p.content{
+	margin: 0px 20px 0px 20px;
+	width: 420px;
+	text-align: justify;
+}
+p.footer{
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: -70px;	
+}
+a.footer{
+	color: #ffffff;
+	margin: 10px;
+}

@@ -1,0 +1,161 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+#container{
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+.topblack{
+		width: 100%;
+		min-height: 10px;
+		margin: 0px;
+		background-color: #000000;
+}
+.logobanner{
+		width: 100%;
+		min-height: 50px;
+		margin: 0px;
+		padding: 0px;		
+		background-color: #000000;
+		display: block;
+		float: left;
+		}
+img.logobannerleft{
+	margin-left: 10%;
+	float: left;
+}
+img.logobannercenter{
+	margin: auto;
+    	float: left;
+	width:100%;
+
+}
+img.logobannerright{
+	margin-left: 10%;
+	float:left;
+
+}
+.menu{
+		width: 100%;
+		height: 50px;
+		background-image: url("images/menu background.jpg");
+		background-repeat: repeat-x;
+		margin: 0px;
+		background-color: #000000;
+		float: left;
+		display: table;
+		font-family: arial;
+		font-size: 0.9em;
+}
+.banner{
+	width: 100%;
+	height: 400px;
+	margin: 0px 0px 10px 0px;
+}
+.abox, .bbox, .cbox, .dbox{
+	width: 21%;
+	height: auto;
+	background-color: #ffffff;
+	float: left;
+	margin: 10px 10px 40px 3%;
+	font-family: arial;
+}
+
+.boxallign{
+	float: left;
+}
+.welcome{
+	width: 100%;
+	margin: 50px 10px 50px 5%;
+	font-family: arial;
+}
+.content{
+	width: 90%;
+	min-height: 200px;
+	margin: 10px 10px 0px 5%;
+	font-family: arial;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.footer{
+		width: 100%;
+		min-height: 20px;
+		margin: 50px 0px 0px 0px;
+		background-color: #000000;
+		text-align: center;
+}
+a.navi{
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.1em;
+	margin: 30px;
+}
+a.hover{
+	color: yellow;
+}
+
+img.slideshow{
+	 margin:auto;
+}
+
+img.navi{
+	vertical-align: middle;
+	display: table-cell;
+}
+span{
+	vertical-align: middle;
+	display: table-cell;
+}
+p.box{
+	margin-top: -20px;
+	margin-left: 10px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	text-align: justify;
+	font-family: arial;
+	font-style: italic;
+	font-size: 1.2em;
+}
+a.box{
+	margin-left: 10px;
+}
+img.content{
+	margin: 0px;
+	width: 214px;
+	height: 178px;
+}
+p.content{
+	margin: 0px 20px 0px 20px;
+	min-width: 420px;
+	text-align: justify;
+}
+p.footer{
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: -70px;	
+}
+a.footer{
+	color: #ffffff;
+	margin: 10px;
+}
+tr.drpdownlist, td.drpdownlist{
+padding: 20px;
+word-wrap: normal;
+}
+
+table{
+	margin: 0 auto;
+	border: 3px solid black;
+	border-collapse: separate;
+	border-spacing: 2px;
+	padding: 5px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+
+}
