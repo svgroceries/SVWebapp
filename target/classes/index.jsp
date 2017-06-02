@@ -99,6 +99,7 @@
 		  </a>
 		</div>
 <!-- ************************************************************************************************* -->
+		<h1 class="page-header">Welcome, to SV Groceries!</h1>
 		<div class="media">
 			<div class="media-left media-middle">
 				<a href="#">
@@ -106,7 +107,6 @@
 				</a>
 			</div>
 			<div class="media-body">
-				<h1 class="page-header">Welcome, to SV Groceries!</h1>
 				<p style="font-size: 1.2em;">
 					"SV Groceries LLC is a leading grocery store based in Lone Tree, Colorado. SV Groceries was established in the year 2011, since then we are serving many customers as one stop store, where you can shop for all kinds of Indian groceries, fresh vegetables, pooja items, Kitchen utensils etc."
 				</p>
@@ -119,14 +119,14 @@
 		<div class="row">
 			<!-- **************************************************************************** -->
 			<div class="media abox col-xs-12 col-sm-3">
-				<div class="media-left media-middle">
+				<div class="media-left  media-middle">
 					<a href="#">
-						<img class="media-object" src="images/PurpleStar.gif" alt="purple star" data-holder-rendered="true" style= "width:64px; height:64px;">
+						<img class="media-object" src="images/PurpleStar.gif" alt="purple star" data-holder-rendered="true" style= "width:32px; height:32px;">
 					</a>
 				</div>
 				<div class="media-body">
-					<h2 class="page-header">Dry Groceries</h2>
-					<p style="font-size: 1.2em;">
+					<h3 class="page-header">Dry Groceries</h3>
+					<p style="font-size: 1em;">
 						"All kinds of spices, lentils, flours, rice, snacks, ready to eat products from multiple vendors."
 					</p>
 				</div>
@@ -134,14 +134,14 @@
 			<!-- **************************************************************************** -->
 			<!-- **************************************************************************** -->
 			<div class="media abox col-xs-12 col-sm-3">
-				<div class="media-left media-middle">
+				<div class="media-left  media-middle">
 					<a href="#">
-						<img class="media-object" src="images/OrangeStar.gif" alt="orange star" data-holder-rendered="true" style= "width:64px; height:64px;">
+						<img class="media-object" src="images/OrangeStar.gif" alt="orange star" data-holder-rendered="true" style= "width:32px; height:32px;">
 					</a>
 				</div>
 				<div class="media-body">
-					<h2 class="page-header">Frozen Food</h2>
-					<p style="font-size: 1.2em;">
+					<h3 class="page-header">Frozen Food</h3>
+					<p style="font-size: 1em;">
 						"Frozen parathas, naans, rotis, idli, dosa, utappam, vada, curries, vegetables, sweets from major vendors like Deep, Haldiram, Nanak, etc."
 					</p>
 				</div>
@@ -149,14 +149,14 @@
 			<!-- **************************************************************************** -->
 			<!-- **************************************************************************** -->
 			<div class="media abox col-xs-12 col-sm-3">
-				<div class="media-left media-middle">
+				<div class="media-left  media-middle">
 					<a href="#">
-						<img class="media-object" src="images/GreenStar.gif" alt="green star" data-holder-rendered="true" style= "width:64px; height:64px;">
+						<img class="media-object" src="images/GreenStar.gif" alt="green star" data-holder-rendered="true" style= "width:32px; height:32px;">
 					</a>
 				</div>
 				<div class="media-body">
-					<h2 class="page-header">Fresh Vegetables</h2>
-					<p style="font-size: 1.2em;">
+					<h3 class="page-header">Fresh Vegetables</h3>
+					<p style="font-size: 1em;">
 						"About 100+ varities of fresh Indian vegetables through out the week with special deals."
 					</p>
 				</div>
@@ -166,12 +166,12 @@
 			<div class="media abox col-xs-12 col-sm-3">
 				<div class="media-left media-middle">
 					<a href="#">
-						<img class="media-object" src="images/YellowStar.gif" alt="yellow star" data-holder-rendered="true" style= "width:64px; height:64px;">
+						<img class="media-object" src="images/YellowStar.gif" alt="yellow star" data-holder-rendered="true" style= "width:32px; height:32px;">
 					</a>
 				</div>
 				<div class="media-body">
-					<h2 class="page-header">Earn Rewards</h2>
-					<p style="font-size: 1.2em;">
+					<h3 class="page-header">Earn Rewards</h3>
+					<p style="font-size: 1em;">
 						"Join our loyality program to earn rewards on every purchase. Every dollar spent will be rewarded in the form of gift voucher."
 					</p>
 				</div>
