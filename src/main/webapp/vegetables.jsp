@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.js">
 </head>
 <body>
-	<div id="container">
+	<div class="container-fluid">
 		<div class="topblack"></div>
 		<div class="logobanner">
 			<!img class="logobannerleft" src="images/ganesh.jpg" alt="venkatesha"><!--

@@ -47,7 +47,7 @@
 	<!--====================== Google Maps Script End==========================================-->
 </head>
 <body>
-	<div id="container">
+	<div class="container-fluid">
 		<div class="topblack"></div>
 		<div class="logobanner">
 			<!img class="logobannerleft" src="images/ganesh.jpg" alt="venkatesha"><!--
@@ -108,8 +108,9 @@
 			<a href="vegetables.jsp" class="btn btn-primary">VEGETABLES</a>
 			<a href="register.jsp" class="btn btn-primary">REGISTER</a>
 			<a href="contactus.jsp" class="btn btn-primary">CONTACT US</a>
-		</div><!--
-		--><table style="margin-top:50px; margin-left: 10%">
+		</div>
+		<div style="width: 100%">
+		<table style="margin:50px auto; border:0">
 			<col width="60%">
 			<col width="30%">
 			<tr>
@@ -137,7 +138,8 @@
 					<br>
 				</td>
 			</tr>
-		</table>				
+		</table>
+		</div>				
 		<div class="footer">
 		<br>
 			<p class="footer">&#169;svgroceries.com 2015</p>
