@@ -6,7 +6,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SV Groceries</title>
+	<title>SV Groceries-Indian foods & spices</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<link rel="stylesheet" href="css/products_style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">

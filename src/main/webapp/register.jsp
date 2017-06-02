@@ -6,7 +6,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SV Groceries</title>
+	<title>SV Groceries-Indian foods & spices</title>
 	<link rel="stylesheet" href="mystyle.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.minxx.css">
@@ -56,7 +56,7 @@
 		</nav>
 <!-- ************************************************************************************************ -->
 		<br><br><br><br><br><br><br><br>
-		<h1 style="margin:0px 0px 0px 180px"> This page is under development. Please check back later.</h1>	
+		<h1 class="page-header" style="margin:auto"> This page is under development. Please check back later.</h1>	
 		<br><br><br><br><br><br><br><br>
 	</div>			
 <!-- ************************************************************************************************* -->	

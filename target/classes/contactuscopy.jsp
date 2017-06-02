@@ -14,17 +14,36 @@
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.js">
 	<!--====================== Google Maps Script ==========================================-->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
 	<script>
-	function myMap() {
-	    var mapCanvas = document.getElementById("map");
-	    var mapOptions = {
-	        center: new google.maps.LatLng(39.5617794,-104.8985568),
-	        zoom: 10
-	    };
-	    var map = new google.maps.Map(mapCanvas, mapOptions);
-	} 
-	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwl03gDfkznx5zNk0fA7taWKJ-4vIHUZM&callback=myMap"></script>	
+	var myCenter=new google.maps.LatLng(39.5617794,-104.8985568);
+	var marker;
+	function initialize() 
+	{
+	  var mapProp = {
+	    center:myCenter,
+	    zoom:15,
+	    mapTypeId:google.maps.MapTypeId.ROADMAP
+	  };
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+	var marker=new google.maps.Marker({
+	  position:myCenter,
+	  animation:google.maps.Animation.BOUNCE
+	  });
+
+	marker.setMap(map);
+
+	var infowindow = new google.maps.InfoWindow({
+	  content:"SV Groceries"
+	  });
+
+	infowindow.open(map,marker);
+
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>	
 	<!--====================== Google Maps Script End==========================================-->
 </head>
 <body>
@@ -68,9 +87,6 @@
 		  </div><!-- /.container-fluid -->
 		</nav>		
 
-	<div class="container-fluid">
-		 <div id="map" style="width:400px;height:400px;"> 
-	</div>
 		
 		<div style="width: 100%">
 		<table style="margin:50px auto; border:0">
