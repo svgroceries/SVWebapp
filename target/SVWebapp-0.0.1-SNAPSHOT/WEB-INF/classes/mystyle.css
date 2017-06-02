@@ -56,19 +56,12 @@ img.logobannerright{
 	margin: 0px 0px 10px 0px;
 }
 .abox, .bbox, .cbox, .dbox{
-	width: 21%;
-	height: auto;
-	background-color: #ffffff;
-	float: left;
-	margin: 10px 10px 40px 3%;
 	font-family: arial;
 }
 
-.boxallign{
-	float: left;
-}
+
 .welcome{
-	width: 100%;
+	/* width: 100%; */
 	margin: 50px 10px 50px 5%;
 	font-family: arial;
 }
@@ -82,11 +75,12 @@ img.logobannerright{
 }
 
 .footer{
-		width: 100%;
+		/* width: 100%; */
 		min-height: 20px;
-		margin: 50px 0px 0px 0px;
+		/* margin: 50px 0px 0px 0px; */
 		background-color: #000000;
 		text-align: center;
+		color: white;
 }
 a.navi{
 	color: #ffffff;

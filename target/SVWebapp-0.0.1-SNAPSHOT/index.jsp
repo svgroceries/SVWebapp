@@ -14,99 +14,68 @@
 	<link rel="stylesheet" href="css/bootstrap.min.js">
 </head>
 <body>
-<div id="container">
-		<div class="topblack"></div>
-		<div class="logobanner">
-			<!img class="logobannerleft" src="images/ganesh.jpg" alt="Ganesh"><!--
-			--><img class="logobannercenter" src="images/SV Groceries logo.jpg" alt="logo"><!--
-			--><!img class="logobannerright" src="images/venkatesha.jpg" alt="venkatesha">
+<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<img class="logobannercenter" src="images/SV Groceries logo.jpg" alt="logo">
+			</div>
 		</div>
-		<div class="btn-group btn-group-justified">
-			<a href="index.jsp" class="btn btn-primary">HOME</a>
-		<div class="btn-group">
-		     <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-		      PRODUCTS <span class="caret"></span></a>
-		      <ul class="dropdown-menu" role="menu">
-		      	<table>
-		      		<col width="200px">
-		      		<col width="200px">
-		      		<col width="200px">
-		      		<tr class="drpdownlist">
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="flours.jsp">Atta/Flours</a></li>
-					        <li><a href="Biscuits.jsp">Biscuits</a></li>
-					        <li><a href="candy.jsp">Candy</a></li>
-					        <li><a href="cannedfoods.jsp">Canned_Foods</a></li>
-					        <li><a href="chat.jsp">Chat</a></li>
-					        <li><a href="cosmetics.jsp">Cosmetics</a></li>
-					        <li><a href="dairy.jsp">Dairy</a></li>
-					        <li><a href="dals.jsp">Dals</a></li>
-					        <li><a href="drinks.jsp">Drinks</a></li>
-					        <li><a href="essence.jsp">Essence/Colors</a></li>
-		      			</td>
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="frozen.jsp">Frozen</a></li>
-					        <li><a href="gheeoil.jsp">Ghee/Oil</a></li>
-					        <li><a href="icecream.jsp">Ice Cream</a></li>
-					        <li><a href="kitchen.jsp">Kitchen_Tools</a></li>
-					        <li><a href="mamrapoha.jsp">Mamra/Poha</a></li>
-					        <li><a href="masalas.jsp">Masalas</a></li>
-					        <li><a href="mukhwas.jsp">Mukhwas</a></li>
-					        <li><a href="noodles.jsp">Noodles</a></li>
-					        <li><a href="nuts.jsp">Nuts</a></li>
-					        <li><a href="oats.jsp">Oats</a></li>			
-		      			</td>
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="papad.jsp">Papads </a></li>
-					        <li><a href="pastes.jsp">Pastes</a></li>
-					        <li><a href="pickles.jsp">Pickles</a></li>
-					        <li><a href="pooja.jsp">Pooja</a></li>
-					        <li><a href="rte.jsp">Ready_To_Eat</a></li>
-					        <li><a href="rice.jsp">Rice</a></li>
-					        <li><a href="snacks.jsp">Snacks</a></li>
-					        <li><a href="soups.jsp">Soups</a></li>
-					        <li><a href="spices.jsp">Spices</a></li>
-					        <li><a href="sportinggoods.jsp">Sporting_Goods</a></li>			
-		      			</td>
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="sweets.jsp">Sweets</a></li>
-					        <li><a href="tamarind.jsp">Tamarind</a></li>
-					        <li><a href="teacoffe.jsp">Tea/Coffee</a></li>
-					        <li><a href="future.jsp">Future</a></li>
-					        <li><a href="future.jsp">Future</a></li>
-					        <li><a href="future.jsp">Future</a></li>
-					        <li><a href="gheeoil.jsp">New Arivals</a></li>
-					        <li><a href="kitchen.jsp">Clearence<a></li>
-					        <li><a href="noodles.jsp">Festive_Specials</a></li>
-					        <li><a href="masalas.jsp">Sale_Items</a></li>			
-		      			</td>		      					      					      					      			
-		      		</tr>
-		      	</table>
-		       </ul>	      	
-		 </div>
-			<a href="vegetables.jsp" class="btn btn-primary">VEGETABLES</a>
-			<a href="register.jsp" class="btn btn-primary">REGISTER</a>
-			<a href="contactus.jsp" class="btn btn-primary">CONTACT US</a>
-		</div><!--
-		--><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- ************************************************************************************************* -->
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.jsp">SV Groceries</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="index.jsp">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="products.jsp">Products</a></li>
+		        <li><a href="vegetables.jsp">Vegetables</a></li>
+		        <li><a href="register.jsp">Register</a></li>
+		        <li><a href="contactus.jsp">Contact Us</a></li>
+		      </ul>
+		      <form class="navbar-form navbar-right">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+<!-- ************************************************************************************************ -->
+
+<!-- ************************************************************************************************* --> 
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <!li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		    <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li>  -->
 		  </ol>
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img class="slideshow" src="images/Banner_Dals.jpg" alt="dals">
-		      <div class="carousel-caption">
+		    	<!--  <div class="fill" style="background-image: url('../SVWebApp/images/Banner_Dals.jpg');"></div>  -->
+		    	<img class="slideshow img-responsive" src="images/Banner_Dals.jpg" alt="dals">
+		    	<div class="carousel-caption">
 		        ..
 		      </div>
 		    </div>
 		    <div class="item">
-		      <img class="slideshow" src="images/Banner_Deep.jpg" alt="deep">
-		      <div class="carousel-caption">
+		    	<!--  <div class="fill" style="background-image: url('../SVWebApp/images/Banner_Deep.jpg');"></div> -->
+		      	<img class="slideshow img-responsive" src="images/Banner_Deep.jpg" alt="deep">
+		      	<div class="carousel-caption">
 		        ..
 		      </div>
 		    </div>
@@ -129,61 +98,92 @@
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
-		<div>
-		<div class="abox">
-			<div class="boxallign">
-			<span><img src="images/PurpleStar.gif" alt="abox"></span>
-			<span><h2 style="margin:30px">Dry<br>Groceries</h2></span>
-			<p class="box">
-				All kinds of spices, lentils, flours, rice, snacks, ready to eat products from multiple vendors.
-			</p>
+<!-- ************************************************************************************************* -->
+		<div class="media">
+			<div class="media-left media-middle">
+				<a href="#">
+					<img class="media-object" src="images/Fruits.jpg" alt="Fruits.jpg" data-holder-rendered="true" style= "width:128px; height:128px;">
+				</a>
 			</div>
-		</div>
-		<div class="bbox">
-			<div class="boxallign">
-			<span><img src="images/OrangeStar.gif" alt="abox"></span>
-			<span><h2 style="margin:30px">Frozen<br>Food</h2></span>
-			<p class="box">
-				Frozen parathas, naans, rotis, idli, dosa, utappam, vada, curries, vegetables, sweets from major vendors like Deep, Haldiram, Nanak, etc.
-			</p>
-			</div>
-		</div>
-		<div class="cbox">
-			<div class="boxallign">
-			<span><img src="images/GreenStar.gif" alt="abox"></span>
-			<span><h2 style="margin:30px">Fresh<br>Vegetables</h2></span>
-			<p class="box">
-				About 100+ varities of fresh Indian vegetables through out the week with special deals.
-			</p>
-			</div>			
-		</div>
-		<div class="dbox">
-			<div class="boxallign">
-			<span><img src="images/YellowStar.gif" alt="abox"></span>
-			<span><h2 style="margin:30px">Earn<br>Rewards</h2></span>
-			<p class="box">
-				Join our loyality program to earn rewards on every purchase. Every dollar spent will be rewarded in the form of gift voucher.
-			</p>
-			</div>			
-		</div>
-		</div>
-		<div class="welcome">
-			<h1> Welcome, to SV Groceries!</h1>
-		</div>
-		<div class="content">
-			<div class="boxallign">
-			<span><img class="content" src="images/Fruits.jpg" alt="abox"></span>
-			<span>
-			<p class="content" >
-				SV Groceries LLC is a leading grocery store based in Lone Tree, Colorado. SV Groceries was established in the year 2011, since then we are serving many customers as one stop store, where you can shop for all kinds of Indian groceries, fresh vegetables, pooja items, Kitchen utensils etc.<br><br>
-				We bring our stock from many vendors like Asli, Swad, Laxmi, Deep, Nanak etc., which gives our customers a wide variety of selection and one stop for all your needs. 
+			<div class="media-body">
+				<h1 class="page-header">Welcome, to SV Groceries!</h1>
+				<p style="font-size: 1.2em;">
+					"SV Groceries LLC is a leading grocery store based in Lone Tree, Colorado. SV Groceries was established in the year 2011, since then we are serving many customers as one stop store, where you can shop for all kinds of Indian groceries, fresh vegetables, pooja items, Kitchen utensils etc."
 				</p>
-			</span>
-			</div>						
+				<p style="font-size: 1.2em;">
+					"We bring our stock from many vendors like Asli, Swad, Laxmi, Deep, Nanak etc., which gives our customers a wide variety of selection and one stop for all your needs."
+				</p>
+			</div>
 		</div>
-		<div class="footer">
-		<br>
-			<p class="footer">&#169;svgroceries.com 2017</p>
+<!-- ************************************************************************************************* -->		
+		<div class="row">
+			<!-- **************************************************************************** -->
+			<div class="media abox col-xs-12 col-sm-3">
+				<div class="media-left media-middle">
+					<a href="#">
+						<img class="media-object" src="images/PurpleStar.gif" alt="purple star" data-holder-rendered="true" style= "width:64px; height:64px;">
+					</a>
+				</div>
+				<div class="media-body">
+					<h2 class="page-header">Dry Groceries</h2>
+					<p style="font-size: 1.2em;">
+						"All kinds of spices, lentils, flours, rice, snacks, ready to eat products from multiple vendors."
+					</p>
+				</div>
+			</div>
+			<!-- **************************************************************************** -->
+			<!-- **************************************************************************** -->
+			<div class="media abox col-xs-12 col-sm-3">
+				<div class="media-left media-middle">
+					<a href="#">
+						<img class="media-object" src="images/OrangeStar.gif" alt="orange star" data-holder-rendered="true" style= "width:64px; height:64px;">
+					</a>
+				</div>
+				<div class="media-body">
+					<h2 class="page-header">Frozen Food</h2>
+					<p style="font-size: 1.2em;">
+						"Frozen parathas, naans, rotis, idli, dosa, utappam, vada, curries, vegetables, sweets from major vendors like Deep, Haldiram, Nanak, etc."
+					</p>
+				</div>
+			</div>
+			<!-- **************************************************************************** -->
+			<!-- **************************************************************************** -->
+			<div class="media abox col-xs-12 col-sm-3">
+				<div class="media-left media-middle">
+					<a href="#">
+						<img class="media-object" src="images/GreenStar.gif" alt="green star" data-holder-rendered="true" style= "width:64px; height:64px;">
+					</a>
+				</div>
+				<div class="media-body">
+					<h2 class="page-header">Fresh Vegetables</h2>
+					<p style="font-size: 1.2em;">
+						"About 100+ varities of fresh Indian vegetables through out the week with special deals."
+					</p>
+				</div>
+			</div>
+			<!-- **************************************************************************** -->
+			<!-- **************************************************************************** -->
+			<div class="media abox col-xs-12 col-sm-3">
+				<div class="media-left media-middle">
+					<a href="#">
+						<img class="media-object" src="images/YellowStar.gif" alt="yellow star" data-holder-rendered="true" style= "width:64px; height:64px;">
+					</a>
+				</div>
+				<div class="media-body">
+					<h2 class="page-header">Earn Rewards</h2>
+					<p style="font-size: 1.2em;">
+						"Join our loyality program to earn rewards on every purchase. Every dollar spent will be rewarded in the form of gift voucher."
+					</p>
+				</div>
+			</div>
+			<!-- **************************************************************************** -->
+		</div>
+<!-- ************************************************************************************************* -->	
+		
+		<div class="container-fluid">
+			<div class ="row footer">
+				<p>&#169;svgroceries.com 2017</p>
+			</div>
 		</div>
 	</div>
 </body>
