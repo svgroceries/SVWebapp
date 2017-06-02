@@ -14,6 +14,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.js">
+	<link rel="stylesheet" href="css/bootstrap-tooltip.js">
+	<script type="text/javascript">
+	$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+	</script>
+	
 </head>
 <body>
 <div class="container-fluid">
@@ -55,41 +62,59 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 <!-- ************************************************************************************************ -->
-		<div class="row">
-			<!--============================= Line-1 ======================================-->
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
-			      <div class="caption">
-			        <h4 class="prodtext">Apple</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/banana flower.jpg" alt="Banana Flower">
-			      <div class="caption">
-			        <h4 class="prodtext">Banana Flower</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/banana plantain.png" alt="Banana Plantain">
-			      <div class="caption">
-			        <h4 class="prodtext">Banana plantain</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/beet root.jpg" alt="Beet Root">
-			      <div class="caption">
-			        <h4 class="prodtext">Beet Root</h4>
-			      </div>
-			    </div>
+		<div class="container-fluid">
+			<div class="row" style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">ATTA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">COSMETICS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">DALS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">FLOURS</a>
 			</div>
-	</div>
+			<div class="row " style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RICE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SNACKS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TEA/COFFEE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">JAGGERY</a>
+			</div>
+			<div class="row" style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TAMARIND</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">POHA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MAMRA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RTE</a>
+			</div>
+			<div class="row" style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SPICES</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">NUTS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MASALAS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">PUJA</a>
+			</div>
+						<div class="row" style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">ATTA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">COSMETICS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">DALS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">FLOURS</a>
+			</div>
+			<div class="row " style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RICE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SNACKS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TEA/COFFEE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">JAGGERY</a>
+			</div>
+			<div class="row" style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TAMARIND</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">POHA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MAMRA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RTE</a>
+			</div>
+			<div class="row" style="margin-bottom:10px;">
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SPICES</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">NUTS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MASALAS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">PUJA</a>
+			</div>
+		
+		</div>
+		
+		
 <!--============================= Footer ======================================-->
 <!-- ************************************************************************************************* -->	
 		
