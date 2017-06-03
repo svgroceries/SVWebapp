@@ -99,7 +99,7 @@
 		  </a>
 		</div>
 <!-- ************************************************************************************************* -->
-		<h1 class="page-header">Welcome, to SV Groceries!</h1>
+		<h1 class="page-header">Welcome to SV Groceries!</h1>
 		<div class="media">
 			<div class="media-left media-middle">
 				<a href="#">
@@ -108,7 +108,7 @@
 			</div>
 			<div class="media-body">
 				<p style="font-size: 1.2em;">
-					"SV Groceries LLC is a leading grocery store based in Lone Tree, Colorado. SV Groceries was established in the year 2011, since then we are serving many customers as one stop store, where you can shop for all kinds of Indian groceries, fresh vegetables, pooja items, Kitchen utensils etc."
+					"SV Groceries LLC is a leading Indian grocery store based in Lone Tree, Colorado. SV Groceries was established in the year 2011, since then we are serving customers as one stop store, for all kinds of Indian groceries, fresh produce, frozen food, pooja items, kitchen utensils etc."
 				</p>
 				<p style="font-size: 1.2em;">
 					"We bring our stock from many vendors like Asli, Swad, Laxmi, Deep, Nanak etc., which gives our customers a wide variety of selection and one stop for all your needs."
@@ -125,7 +125,7 @@
 					</a>
 				</div>
 				<div class="media-body">
-					<h3 class="page-header">Dry Groceries</h3>
+					<h3 class="page-header">Groceries</h3>
 					<p style="font-size: 1em;">
 						"All kinds of spices, lentils, flours, rice, snacks, ready to eat products from multiple vendors."
 					</p>
@@ -142,7 +142,7 @@
 				<div class="media-body">
 					<h3 class="page-header">Frozen Food</h3>
 					<p style="font-size: 1em;">
-						"Frozen parathas, naans, rotis, idli, dosa, utappam, vada, curries, vegetables, sweets from major vendors like Deep, Haldiram, Nanak, etc."
+						"Frozen parathas, naans, rotis, idli, dosa, utappam, vada, curries, vegetables, and sweets from major vendors like Deep, Haldiram, Nanak, etc."
 					</p>
 				</div>
 			</div>
@@ -157,7 +157,7 @@
 				<div class="media-body">
 					<h3 class="page-header">Fresh Vegetables</h3>
 					<p style="font-size: 1em;">
-						"About 100+ varities of fresh Indian vegetables through out the week with special deals."
+						"About 100+ varieties of fresh Indian vegetables through out the week with special deals."
 					</p>
 				</div>
 			</div>
@@ -172,7 +172,7 @@
 				<div class="media-body">
 					<h3 class="page-header">Earn Rewards</h3>
 					<p style="font-size: 1em;">
-						"Join our loyality program to earn rewards on every purchase. Every dollar spent will be rewarded in the form of gift voucher."
+						"Join our loyalty program to earn rewards on every purchase. Every $100 spent will be rewarded in the form of gift voucher."
 					</p>
 				</div>
 			</div>
