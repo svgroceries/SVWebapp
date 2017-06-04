@@ -19,7 +19,7 @@
 <div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<img class="logobannercenter" src="images/SV Groceries logo.jpg" alt="logo">
+				<a href="index.jsp"><img class="logobannercenter" src="images/SV Groceries logo.jpg" alt="logo"></a>
 			</div>
 		</div>
 <!-- ************************************************************************************************* -->		<div class="btn-group btn-group-justified">
