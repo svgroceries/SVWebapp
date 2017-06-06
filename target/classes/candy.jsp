@@ -125,39 +125,39 @@
 			<div class="row">
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Chakki Atta</li>
-				    <li>AASHIRWAD</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>PATANJALI</li>
-				    <li>SUJATA</li>
-				    <li>SWAD</li>
-				    <li>SWARNA</li>
+				    <li class="header">Candy Type1</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
 				  </ul>
 				</div> 
 			 	<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Durum Atta</li>
-				    <li>GOLDEN TEMPLE</li>
-				    <li>SWAD</li>
+				    <li class="header">Candy Type2</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
 				 </ul>
 				</div> 
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Multigrain Atta</li>
-				    <li>AASHIRWAD</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>PATANJALI</li>
-				    <li>SUJATA</li>
-				    <li>SWAD</li>
-				    <li>SWARNA</li>
+				    <li class="header">Candy Type3</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
+				    <li>CANDY</li>
 				  </ul>
 				</div> 
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header" style="background-color:#4CAF50">Organic Atta</li>
-				    <li>24 MANTRA</li>
+				    <li class="header" style="background-color:#4CAF50">Candy Type4</li>
+				    <li>CANDY</li>
 				  </ul>
 				</div>
 			</div>

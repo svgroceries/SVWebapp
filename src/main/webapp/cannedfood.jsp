@@ -125,39 +125,39 @@
 			<div class="row">
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Chakki Atta</li>
-				    <li>AASHIRWAD</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>PATANJALI</li>
-				    <li>SUJATA</li>
-				    <li>SWAD</li>
-				    <li>SWARNA</li>
+				    <li class="header">Canned Food 1</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
 				  </ul>
 				</div> 
 			 	<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Durum Atta</li>
-				    <li>GOLDEN TEMPLE</li>
-				    <li>SWAD</li>
+				    <li class="header">Canned Food 2</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
 				 </ul>
 				</div> 
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Multigrain Atta</li>
-				    <li>AASHIRWAD</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>PATANJALI</li>
-				    <li>SUJATA</li>
-				    <li>SWAD</li>
-				    <li>SWARNA</li>
+				    <li class="header">Canned Food 3</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
+				    <li>Canned Food</li>
 				  </ul>
 				</div> 
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header" style="background-color:#4CAF50">Organic Atta</li>
-				    <li>24 MANTRA</li>
+				    <li class="header" style="background-color:#4CAF50">Canned Food 4</li>
+				    <li>Canned Food</li>
 				  </ul>
 				</div>
 			</div>

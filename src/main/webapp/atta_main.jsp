@@ -135,8 +135,7 @@
 				    <li>SWARNA</li>
 				  </ul>
 				</div> 
-			
-				 <div class="columns  col-xs-12 col-sm-3">
+			 	<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
 				    <li class="header">Durum Atta</li>
 				    <li>GOLDEN TEMPLE</li>
@@ -155,7 +154,6 @@
 				    <li>SWARNA</li>
 				  </ul>
 				</div> 
-				
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
 				    <li class="header" style="background-color:#4CAF50">Organic Atta</li>
