@@ -65,7 +65,7 @@
 		<div class="container-fluid">
 			<div class="row" style="padding:5px;">
 				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">ATTA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">BEVERAGES</a>
+				<a href="beverages.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">BEVERAGES</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">CANDY</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">CANNED FOOD</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">COSMETICS</a>
