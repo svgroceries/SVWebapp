@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width= 320, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SV Groceries-Indian foods & spices</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -108,10 +108,10 @@
 			</div>
 			<div class="media-body">
 				<p style="font-size: 1.2em;">
-					"SV Groceries LLC is a leading Indian grocery store based in Lone Tree, Colorado. SV Groceries was established in the year 2011, since then we are serving customers as one stop store, for all kinds of Indian groceries, fresh produce, frozen food, pooja items, kitchen utensils etc."
+					"SV Groceries LLC is a leading Indian grocery store based in Lone Tree, Colorado. Established in 2011 and serving its customers as one stop destination for all Indian groceries, fresh produce, frozen food, puja items, kitchen utensils and many more needs. Our quality and variety of products are best in town"
 				</p>
 				<p style="font-size: 1.2em;">
-					"We bring our stock from many vendors like Asli, Swad, Laxmi, Deep, Nanak etc., which gives our customers a wide variety of selection and one stop for all your needs."
+					"We bring our stock from all over the world which gives our customers wide variety of selection. We carry all leading major brands like Asli, Deep, Haldirams, Laxmi, Nanak, Swad etc.,"
 				</p>
 			</div>
 		</div>

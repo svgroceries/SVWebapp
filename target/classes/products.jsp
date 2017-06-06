@@ -63,55 +63,48 @@
 		</nav>
 <!-- ************************************************************************************************ -->
 		<div class="container-fluid">
-			<div class="row" style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">ATTA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">COSMETICS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">DALS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">FLOURS</a>
+			<div class="row" style="padding:5px;">
+				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">ATTA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">BEVERAGES</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">CANDY</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">CANNED FOOD</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">COSMETICS</a>
 			</div>
-			<div class="row " style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RICE</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SNACKS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TEA/COFFEE</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">JAGGERY</a>
+			<div class="row " style="padding:5px;">
+				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">DALS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">FLOURS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">FRESH PRODUCE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">FROZEN FOOD</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">GHEE & OIL</a>
 			</div>
-			<div class="row" style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TAMARIND</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">POHA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MAMRA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RTE</a>
+			<div class="row " style="padding:5px;">
+				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">INDO-CHINEESE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">INSTANT MIXES</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">KITCHEN UTENSILS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">MAMRA/POHA</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">MASALAS</a>
 			</div>
-			<div class="row" style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SPICES</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">NUTS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MASALAS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">PUJA</a>
+			<div class="row " style="padding:5px;">
+				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">MASALAS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">MUKHWAS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">NOODLES</a>
+				<a href="underdevelopment.jsp" class="btn btn-success btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">ORGANIC PRODUCTS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">PICKELS/CHUTNEYS</a>
 			</div>
-						<div class="row" style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">ATTA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">COSMETICS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">DALS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">FLOURS</a>
+			<div class="row " style="padding:5px;">
+				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">POOJA ITEMS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">READY TO EAT</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">RICE</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SNACKS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SOUPS</a>
 			</div>
-			<div class="row " style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RICE</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SNACKS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TEA/COFFEE</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">JAGGERY</a>
+			<div class="row " style="padding:5px;">
+				<a href="atta_main.jsp" class="btn btn-warning btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SPECIAL OCCASION</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SPICES</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SPORTING GOODS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SWEETS</a>
+				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">TEA/COFFEE</a>
 			</div>
-			<div class="row" style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">TAMARIND</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">POHA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MAMRA</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">RTE</a>
-			</div>
-			<div class="row" style="margin-bottom:10px;">
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">SPICES</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">NUTS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">MASALAS</a>
-				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-sm-3" role="button">PUJA</a>
-			</div>
-		
 		</div>
 		
 		
