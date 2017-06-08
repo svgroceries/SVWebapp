@@ -15,6 +15,7 @@
 	  ga('create', 'UA-100790928-1', 'auto');
 	  ga('send', 'pageview');
 	</script>
+	<meta name="keywords" content="SV Groceries, Indian Groceries, Groceries in Denver, Indian Store, Groceries in Lone Tree, Grocery, Indian food, Food">
 	<title>SV Groceries-Indian foods & spices</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
