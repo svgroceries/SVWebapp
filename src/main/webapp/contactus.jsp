@@ -86,16 +86,11 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>		
-
-		
-		<div style="width: 100%">
-		<table style="margin:50px auto; border:0">
-			<col width="60%">
-			<col width="30%">
-			<tr>
-				<td id="googleMap" style="height:400px">		
-				</td>
-				<td >
+<!-- ************************************************************************************************* -->
+		<div class="container-fluid">
+			<div class ="row">
+				<div class ="col-xs-12 col-md-1"></div>
+				<div class ="col-xs-12 col-md-3" style="align:center;">
 					<address style="margin-left:50px"> 
 					<strong>Contact Us </strong><br>
 					<strong>SV Groceries LLC.</strong> <br>
@@ -104,22 +99,16 @@
 					Lone Tree, CO-80124 <br>
 					<abbr title="Phone">Phone:</abbr>(303) 459 4929 <br>
 					<a href="mailto:svgroceries@gmail.com">svgroceries@gmail.com</a>
-					</address> <br><br>
+					</address> <br>
 					<a class="bllink" href="https://www.google.com/maps/place/SV+Groceries/@39.562018,-104.8995546,16z/data=!4m2!3m1!1s0x876c844ebb78a939:0x34bcd99bf634e99f"><h2 style="margin-left:50px">Get Directions</h2></a>
-					<br><br>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<br><br><br><br><br><br>
-				</td>
-				<td>
-					<br>
-				</td>
-			</tr>
-		</table>
-		</div>	
-	</div>			
+				</div>
+				<div class ="col-xs-12 col-md-1"></div>
+				<div id="googleMap" class ="col-xs-12 col-md-6" style = "height:400px"></div>
+				<div class ="col-xs-12 col-md-1"></div>
+			</div>
+		
+		</div>
+</div>			
 <!-- ************************************************************************************************* -->	
 		
 		<div class="container-fluid">
