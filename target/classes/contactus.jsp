@@ -14,7 +14,7 @@
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.js">
 	<!--====================== Google Maps Script ==========================================-->
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDwl03gDfkznx5zNk0fA7taWKJ-4vIHUZM"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCGYWmiXVreihevCh4kB8gl1Zt0AVeIcrE"></script>
 	<script>
 	var myCenter=new google.maps.LatLng(39.5617794,-104.8985568);
 	var marker;
