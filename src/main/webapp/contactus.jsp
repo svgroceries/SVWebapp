@@ -109,6 +109,12 @@
 					Lone Tree, CO-80124 <br>
 					<abbr title="Phone">Phone:</abbr>(303) 459 4929 <br>
 					<a href="mailto:svgroceries@gmail.com">svgroceries@gmail.com</a>
+					<br><br>
+					<strong>Business Hours</strong><br>
+					Monday - Friday: 11AM - 9PM<br>
+					Saturday & Sunday: 11AM - 9PM<br>
+					Open 365 days<br>
+					Extended festival hours<br>
 					</address> <br>
 					<a class="bllink" href="https://www.google.com/maps/place/SV+Groceries/@39.562018,-104.8995546,16z/data=!4m2!3m1!1s0x876c844ebb78a939:0x34bcd99bf634e99f"><h2 style="margin-left:50px">Get Directions</h2></a>
 				</div>
