@@ -1,253 +1,362 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SV Groceries</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SV Groceries-Indian foods & spices</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<link rel="stylesheet" href="css/products_style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.minxx.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.js">
+	<link rel="stylesheet" href="css/bootstrap-tooltip.js">
+	<script type="text/javascript">
+	$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+	</script>
+	
+	<style>
+		* {
+		    box-sizing: border-box;
+		}
+		
+		.columns {
+		    float: left;
+		    width: 33.3%;
+		    padding: 8px;
+		}
+		
+		.price {
+		    list-style-type: none;
+		    border: 1px solid #eee;
+		    margin: 0;
+		    padding: 0;
+		    -webkit-transition: 0.3s;
+		    transition: 0.3s;
+		}
+		
+		.price:hover {
+		    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+		}
+		
+		.price .header {
+		    background-color: #111;
+		    color: white;
+		    font-size: 25px;
+		}
+		
+		.price li {
+		    border-bottom: 1px solid #eee;
+		    padding: 20px;
+		    text-align: center;
+		}
+		
+		.price .grey {
+		    background-color: #eee;
+		    font-size: 20px;
+		}
+		
+		.button {
+		    background-color: #4CAF50;
+		    border: none;
+		    color: white;
+		    padding: 10px 25px;
+		    text-align: center;
+		    text-decoration: none;
+		    font-size: 18px;
+		}
+		
+		@media only screen and (max-width: 600px) {
+		    .columns {
+		        width: 100%;
+		    }
+		}
+	</style>
+	
 </head>
 <body>
-	<div id="container">
-		<div class="topblack"></div>
-		<div class="logobanner">
-			<!img class="logobannerleft" src="images/ganesh.jpg" alt="venkatesha"><!--
-			--><img class="logobannercenter" src="images/SV Groceries logo.jpg" alt="logo"><!--
-			--><!img class="logobannerright" src="images/venkatesha.jpg" alt="ganesh">
+<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<a href="index.jsp"><img class="logobannercenter" src="images/SV Groceries logo.jpg" alt="logo"></a>
+			</div>
 		</div>
-		<div class="btn-group btn-group-justified">
-			<a href="index.html" class="btn btn-primary">HOME</a>
-		<div class="btn-group">
-		     <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-		      PRODUCTS <span class="caret"></span></a>
-		      <ul class="dropdown-menu" role="menu">
-		      	<table>
-		      		<col width="200px">
-		      		<col width="200px">
-		      		<col width="200px">
-		      		<tr class="drpdownlist">
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="dals.html">Atta/Flours</a></li>
-					        <li style="display:inline"><a href="cosmetics.html">Cosmetics</a></li>
-					        <li><a href="dairy.html">Dairy</a></li>
-					        <li><a href="dals.html">Dals</a></li>
-					        <li><a href="drinks.html">Drinks</a></li>
-					        <li><a href="frozen.html">Frozen</a></li>
-					        <li><a href="gheeoil.html">Ghee / Oil</a></li>
-					        <li><a href="kitchen.html">Kitchen_Tools</a></li>
-					        <li><a href="noodles.html">Noodles</a></li>
-					        <li><a href="masalas.html">Masalas</a></li>			
-		      			</td>
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="dals.html">Atta/Flours</a></li>
-					        <li style="display:inline"><a href="cosmetics.html">Cosmetics</a></li>
-					        <li><a href="dairy.html">Dairy</a></li>
-					        <li><a href="dals.html">Dals</a></li>
-					        <li><a href="drinks.html">Drinks</a></li>
-					        <li><a href="frozen.html">Frozen</a></li>
-					        <li><a href="gheeoil.html">Ghee / Oil</a></li>
-					        <li><a href="kitchen.html">Kitchen_Tools</a></li>
-					        <li><a href="noodles.html">Noodles</a></li>
-					        <li><a href="masalas.html">Masalas</a></li>			
-		      			</td>
-		      			<td class="drpdownlist">
-		      				<li style="display:inline"><a href="dals.html">Atta/Flours</a></li>
-					        <li style="display:inline"><a href="cosmetics.html">Cosmetics</a></li>
-					        <li><a href="dairy.html">Dairy</a></li>
-					        <li><a href="dals.html">Dals</a></li>
-					        <li><a href="drinks.html">Drinks</a></li>
-					        <li><a href="frozen.html">Frozen</a></li>
-					        <li><a href="gheeoil.html">Ghee / Oil</a></li>
-					        <li><a href="kitchen.html">Kitchen_Tools</a></li>
-					        <li><a href="noodles.html">Noodles</a></li>
-					        <li><a href="masalas.html">Masalas</a></li>			
-		      			</td>		      					      			
-		      		</tr>
-		      	</table>
-		       </ul>
-		 </div>
-			<a href="vegetables.html" class="btn btn-primary">VEGETABLES</a>
-			<a href="register.html" class="btn btn-primary">REGISTER</a>
-			<a href="contactus.html" class="btn btn-primary">CONTACT US</a>
-		</div>
+<!-- ************************************************************************************************* -->		<div class="btn-group btn-group-justified">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.jsp">SV Groceries</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="index.jsp">Home</a></li>
+		        <li class="active"><a href="products.jsp">Products<span class="sr-only">(current)</span></a></li>
+		        <li><a href="vegetables.jsp">Vegetables</a></li>
+		        <li><a href="register.jsp">Register</a></li>
+		        <li><a href="contactus.jsp">Contact Us</a></li>
+		      </ul>
+		      <form class="navbar-form navbar-right">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+<!-- ************************************************************************************************ -->
+<!-- ************************************************************************************************ -->
+		<div class="container-fluid">
 			<div class="row">
-			<!-- Toor Dal -->
-			  <div class="col-sm-12 col-md-12">
-			     <h2>Toor Dal</h2>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Swad 2LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Swad 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Swad 8LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Laxmi 2LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Laxmi 2LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Laxmi 2LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Asli 2LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Asli 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Asli 8LB</h4>
-			      </div>
-			    </div>
-			  </div><div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Nirav 2LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Nirav 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Nirav 8LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <!--Chana Dal-->
-			  <div class="col-sm-12 col-md-12">
-			     <h2>Chana Dal</h2>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>
-			 <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/toordal.jpg" alt="Toordal">
-			      <div class="caption">
-			        <h4 class="prodtext">Chana Dal 4LB</h4>
-			      </div>
-			    </div>
-			  </div>			  
-<!--============================= Next Button ======================================-->
-		<br><br>
-		<div class="nextbutton">
-		<a href="products1.html">Next</a>
-		</div>		
-<!--============================= Footer ==========================================-->	
-		<div class="footer">
-		<br>
-			<p class="footer">&#169;svgroceries.com 2015</p>
+				 <div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Adzuki Beans</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Black Eye Beans</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div> 
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Chana Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Chora Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Desi Chori</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Green Chana</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Horse Gram</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Kabuli Chana</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Kala Chana</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Kidney Beans</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Massor Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Massor Matki</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Massor Whole</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Moong Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Muth</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Red Chori</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Toor Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Urad Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Urad Split</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Urad Whole</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Val Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Vatana Green</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Vatana White</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Yellow Dal</li>
+				    <li>ASLI</li>
+				    <li>DEEP</li>
+				    <li>LAXMI</li>
+				    <li>SWAD</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header" style="background-color:#4CAF50">Organic Dals</li>
+				    <li>24 MANTRA</li>
+				  </ul>
+				</div>
+			</div>
 		</div>
-
-	</div>
-
+		
+		
+<!--============================= Footer ======================================-->
+<!-- ************************************************************************************************* -->	
+		
+		<div class="container-fluid">
+			<div class ="row footer">
+				<p>&#169;svgroceries.com 2017</p>
+			</div>
+		</div>
 	
 </body>
 </html>
