@@ -125,218 +125,37 @@
 			<div class="row">
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Adzuki Beans</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
+				    <li class="header">Beans</li>
+				    <li>ADZUKI BEANS</li>
+				    <li>BLACK EYE BEANS</li>
+				    <li>KIDNEY BEANS</li>
+				    <li>MUTH</li>
 				  </ul>
 				</div>
-				<div class="columns  col-xs-12 col-sm-3">
+				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Black Eye Beans</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div> 
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Chana Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Chora Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Desi Chori</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Green Chana</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Horse Gram</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Kabuli Chana</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Kala Chana</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Kidney Beans</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Massor Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Massor Matki</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Massor Whole</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Moong Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Muth</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Red Chori</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Toor Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Urad Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Urad Split</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Urad Whole</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Val Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Vatana Green</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Vatana White</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Yellow Dal</li>
-				    <li>ASLI</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>SWAD</li>
+				    <li class="header">Dals/Lentils</li>
+				    <li>CHORA DAL</li>
+				    <li>DESI CHORI</li>
+				    <li>GREEN CHANA</li>
+				    <li>HORSE GRAM</li>
+				    <li>KABULI CHANA</li>
+				    <li>KALA CHANA</li>
+				  	<li>MASSOR CHANA</li>
+				    <li>MASSOR MATKI</li>
+				    <li>MASSOR WHOLE</li>
+				    <li>MOONG DAL</li>
+				   	<li>RED CHORI</li>
+				    <li>TOOR DAL</li>
+				    <li>TOOR DAL OILY</li>
+				    <li>TOOR DAL WHOLE</li>
+				    <li>URAD DAL</li>
+				    <li>URAD SPLIT</li>
+				    <li>URAD WHOLE</li>
+				    <li>VAL DAL</li>
+				    <li>VATANA GREEN</li>
+				    <li>VATANA WHITE</li>
+				    <li>YELLOW DAL</li>
 				  </ul>
 				</div>
 				<div class="columns  col-xs-12 col-sm-3">
