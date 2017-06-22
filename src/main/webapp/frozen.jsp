@@ -123,6 +123,25 @@
 <!-- ************************************************************************************************ -->
 		<div class="container-fluid">
 			<div class="row">
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Appetizers</li>
+				    <li>ALOO TIKKI</li>
+				    <li>DAHI VADA</li>
+				    <li>KHAMAN DOKLA</li>
+				    <li>LILVA KACHORI</li>
+				    <li>MOONG DAL KACHORI</li>
+				    <li>ONION PAKODA</li>
+				    <li>PANEER PAKODA</li>
+				    <li>PATRA</li>
+				    <li>SABUDANA TIKKI</li>
+				    <li>SPINACH PAKODA</li>
+				    <li>TANDOORI PANEER POPERS</li>
+				    <li>VEGGIE CUTLET</li>
+				    <li>VEGGIE KABOB</li>
+				    <li>VEGGIE MASALA BURGER</li>
+				  </ul>
+				</div>
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
 				    <li class="header">Breakfast</li>
@@ -140,15 +159,67 @@
 				</div>
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
+				    <li class="header">Chutneys</li>
+				    <li>COCONUT</li>
+				    <li>CORIANDER</li>
+				    <li>MINT</li>
+				    <li>TOMATO</li>
+				    <li>PANIPURI</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
 				    <li class="header">Curries</li>
-				    <li>MALAI KOFTA</li>
-				    <li>NAVARATAN KORMA</li>
-				    <li>MUTTER PANEER</li>
+				    <li>ALOO MUTTER</li>
 				    <li>BAINGAN BARTA</li>
-				    <li>DAL FRY</li>
+				    <li>BHAGARA BAINGAN</li>
+				    <li>BINDI MASALA</li>
 				    <li>CHOLE</li>
+				    <li>DAL FRY</li>
+				    <li>DAL MAKHNI</li>
+				    <li>DAL MASALA</li>
+				    <li>KASHMIRI DUM ALOO</li>
+				    <li>KOFTA CURRY</li>
+				    <li>MALAI KOFTA</li>
+				    <li>METHI MALAI MUTTER</li>
+				    <li>MUTTER PANEER</li>
+				    <li>NAVARATAN KORMA</li>
+				    <li>PALAK PANEER</li>
 				    <li>PANEER HARIYALI</li>
+				    <li>PANEER MAKHNI</li>
+				    <li>PUNJABI KADHI</li>
+				    <li>SAARSON KA SAAG</li>
+				    <li>SHAHI RAJMA</li>
+				    <li>VEGETABLE JAIPURI</li>
 				 </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Fruits</li>
+				    <li>AMLA</li>
+				    <li>CHICKOO</li>
+				    <li>JAMUN</li>
+				    <li>MANGO PULP</li>
+				    <li>MANGO SLICES</li>
+				    <li>RED GUAVA</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Gujarati</li>
+				    <li>BAJRI ROTLA</li>
+				    <li>GUJARATI DAL</li>
+				    <li>METHI DHEBRA</li>
+				    <li>METHI GOTA</li>
+				    <li>MIXED VEGETABLE HANDVO</li>
+				    <li>MUTHIA</li>
+				    <li>ORIGIANL CLASSIC HANDVO</li>
+				    <li>PATRA</li>
+				    <li>SANDWICH DOKLA</li>
+				    <li>SURATI KHAMAN</li>
+				    <li>THICK MATHIA</li>
+				    <li>VATA PATRA</li>
+				  </ul>
 				</div>
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
@@ -169,8 +240,13 @@
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
 				    <li class="header">Kawan</li>
-				    <li>KAWAN CHAPATI</li>
-				    <li>KAWAN PLAIN PARATHA</li>
+				    <li>CHAPATI</li>
+				    <li>FLAKY PARATHA</li>
+				    <li>MINI PARATHA</li>
+				    <li>ONION PARATHA</li>
+				    <li>PLAIN PARATHA</li>
+				    <li>REDUCED FAT PARATHA</li>
+					<li>WHOLE WHEAT PARATHA</li>
 				  </ul>
 				</div>			
 				 <div class="columns  col-xs-12 col-sm-3">
@@ -187,50 +263,135 @@
 				    <li>AJWAIN PARATHA</li>
 				    <li>ALOO PARATHA</li>
 				    <li>GOBI PARATHA</li>
-				    <li>PANEER PARATHA</li>
+				    <li>MASALA PARATHA</li>
 				    <li>METHI PARATHA</li>
-				    <li>METHI PARATHA UNCOOKED</li>
 				    <li>MIXED VEGETABLE PARATHA</li>
-				    <li>PLAIN PARATHA</li>
-				    <li>SPINACH CHEESE PARATHA</li>
 				    <li>ONION KULCHA</li>
+				    <li>PANEER PARATHA</li>
+				    <li>PLAIN PARATHA</li>
 				    <li>PURAN POLI PARATHA</li>
-				 </ul>
-				</div> 
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Samosa</li>
-				    <li>PUNJABI SAMOSA</li>
-				    <li>CHANA DAL SAMOSA</li>
-				    <li>ALOO SAMOSA</li>
-				    <li>MIXED VEGETABLE SAMOSA</li>
-				    <li>SPINACH PANEER SAMOSA</li>
-				    <li>JALAPENO CHEESE SAMOSA</li>
-				    <li>PARTY PACK SAMOSA</li>
-				    <li>PARTY PACK JUMBO PUNJABI SAMOSA</li>
-				    
+				    <li>SPINACH CHEESE PARATHA</li>
+				    <li>UNCOOKED MSALA PARATHA</li>
+				    <li>UNCOOKED METHI PARATHA</li>
+				    <li>UNCOOKED PALAK PARATHA</li>
+				    <li>UNCOOKED PUDINA PARATHA</li>				    
 				 </ul>
 				</div>
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
+				    <li class="header">Paneer</li>
+				    <li>AMUL</li>
+				    <li>DEEP</li>
+				    <li>NANAK</li>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Pizza</li>
+				    <li>CHEESE NAAN PIZZA</li>
+				    <li>CILANTRO PESTO PIZZA</li>
+				    <li>JALAPENO NAAN PIZZA</li>
+				    <li>ROASTED EGGPLANT PIZZA</li>
+				    <li>SPINACH PANEER CHEESE PIZZA</li>
+				  </ul>
+				</div>				
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Samosa</li>
+				    <li>ALOO SAMOSA</li>
+				    <li>CHANA DAL SAMOSA</li>
+				    <li>COCKTAIL CHANA SAMOSA</li>
+				    <li>COCKTAIL DAL SAMOSA</li>
+				    <li>COCKTAIL POTATO SAMOSA</li>
+				    <li>JALAPENO CHEESE SAMOSA</li>
+				    <li>LENTIL SAMOSA</li>
+				    <li>MIXED VEGETABLE SAMOSA</li>
+				    <li>PANEER CHILLI SAMOSA</li>
+				    <li>PARTY PACK SAMOSA</li>
+				    <li>PARTY PACK JUMBO PUNJABI SAMOSA</li>
+				    <li>PIZZA SAMOSA</li>
+				    <li>PUNJABI SAMOSA</li>
+				    <li>SPINACH PANEER SAMOSA</li>
+				 </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Sandwich</li>
+				    <li>BABU'S ALOO CHAT</li>
+				    <li>BABU'S CHOLE BATURA</li>
+				    <li>BABU'S DABELI</li>
+				    <li>BABU'S MASALA PIZZA</li>
+				    <li>BABU'S PAV BHAJI</li>
+				    <li>BABU'S PALAK PANEER</li>
+				    <li>BABU'S PANEER TIKKA</li>
+				    <li>HALDIRAM'S MIX VEGETABLE</li>
+				    <li>HALDIRAM'S PANEER TIKKA</li>
+				    <li>HALDIRAM'S PUNJABI CHOLE</li>
+				    <li>HALDIRAM'S SHAMI KABOB</li>
+				    <li>HALDIRAM'S SOYA CHOP</li>
+				   </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				    <li class="header">Sweets</li>
+				    <li>ANGOORI GULABJAMUN</li>
+				    <li>ASSORTED PEDA</li>
+				    <li>BURFI PLAIN</li>
+				    <li>BURFI DHODA</li>
+				   	<li>BURFI PISTA</li>
+				   	<li>GULABJAMUN</li>
+				    <li>HALWA - BADAM</li>
+				    <li>HALWA - GAJAR</li>
+				    <li>HALWA - MOONG DAL</li>
+				    <li>KAJU DELIGHT</li>
+				    <li>KAJU KATLI</li>
+				    <li>KALAKHAND</li>
+				    <li>KHOYA</li>
+				    <li>MILK CAKE</li>
+				    <li>MOTICHUR LADDU</li>
+				   	<li>PEDA - MADHURA</li>
+				    <li>PEDA - MALAI</li>
+				    <li>RASMALAI</li>
+				   	<li>RASMALAI - KESAR</li>
+				   	<li>RASGULLA</li>
+				   	<li>SHRIKHAND - ELAICHI</li>
+				   	<li>SHRIKHAND - KESAR PISTA</li>
+				   	<li>SHRIKHAND - MANGO</li>
+				   	<li>SHRIKHAND - TUTTI FRUITI</li>
+				</ul>
+			</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
 				    <li class="header">Vegetables</li>
-				    <li>DRUMSTICKS</li>
-				    <li>OKRA</li>
-				    <li>CUT OKRA</li>
-				    <li>GREEN PEAS</li>
-				    <li>SAMBAR MIX</li>
-				    <li>KARELA</li>
-				    <li>DUM ALOO</li>
-				    <li>SPINACH</li>
-				    <li>METH</li>
-				    <li>GUVAR</li>
-				    <li>GREEN BEANS</li>
-				    <li>CHIKOO</li>
-				    <li>VALOR BEANS</li>
-				    <li>KANTOLA</li>
-				    <li>TINDA</li>
+				    <li>AMLA</li>
+				    <li>ARVI</li>
+				    <li>CHAURI</li>
 				    <li>CUT MANGO</li>
-				    
+				    <li>CUT OKRA</li>
+				    <li>DRUMSTICKS</li>
+				    <li>DUM ALOO</li>
+				    <li>FANSI</li>
+				    <li>GREEN BEANS</li>
+				    <li>GREEN CHILLI</li>
+				    <li>GREEN PEAS</li>
+				    <li>GUVAR</li>
+				    <li>KANTOLA</li>
+				    <li>KARELA</li>
+				    <li>METHI</li>
+				    <li>OKRA</li>
+				    <li>PARVAL</li>
+				    <li>RATALU</li>
+				    <li>SAMBAR MIX</li>
+				    <li>SHREDDED COCONUT</li>
+				    <li>SNAKE GUARD</li>
+				    <li>SPINACH</li>
+				    <li>SWEET CORN</li>
+				    <li>TENDORA</li>
+				    <li>TINDA</li>
+				    <li>TUVAR LILVA</li>
+				    <li>VAL PAPDI</li>
+				    <li>VALOR BEANS</li>
+				    <li>VEGETABLE MIX</li>
 				 </ul>
 				</div> 
 			</div>
