@@ -48,7 +48,7 @@
 		.price .header {
 		    background-color: #111;
 		    color: white;
-		    font-size: 25px;
+		    font-size: 20px;
 		}
 		
 		.price li {
@@ -59,7 +59,7 @@
 		
 		.price .grey {
 		    background-color: #eee;
-		    font-size: 20px;
+		    font-size: 15px;
 		}
 		
 		.button {
@@ -125,36 +125,42 @@
 			<div class="row">
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Appetizers</li>
-				    <li>ALOO TIKKI</li>
-				    <li>DAHI VADA</li>
-				    <li>KHAMAN DOKLA</li>
-				    <li>LILVA KACHORI</li>
-				    <li>MOONG DAL KACHORI</li>
-				    <li>ONION PAKODA</li>
-				    <li>PANEER PAKODA</li>
-				    <li>PATRA</li>
-				    <li>SABUDANA TIKKI</li>
-				    <li>SPINACH PAKODA</li>
-				    <li>TANDOORI PANEER POPERS</li>
-				    <li>VEGGIE CUTLET</li>
-				    <li>VEGGIE KABOB</li>
-				    <li>VEGGIE MASALA BURGER</li>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Appetizers</li> <span class="caret"></span></a>
+				     <ul class="dropdown-menu price" role="menu">
+					    <li>ALOO TIKKI</li>
+					    <li>DAHI VADA</li>
+					    <li>KHAMAN DOKLA</li>
+					    <li>LILVA KACHORI</li>
+					    <li>MOONG DAL KACHORI</li>
+					    <li>ONION PAKODA</li>
+					    <li>PANEER PAKODA</li>
+					    <li>PATRA</li>
+					    <li>SABUDANA TIKKI</li>
+					    <li>SPINACH PAKODA</li>
+					    <li>TANDOORI PANEER POPERS</li>
+					    <li>VEGGIE CUTLET</li>
+					    <li>VEGGIE KABOB</li>
+					    <li>VEGGIE MASALA BURGER</li>
+					  </ul>
 				  </ul>
 				</div>
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Breakfast</li>
-				    <li>IDLI</li>
-				    <li>MASALA IDLI</li>
-				    <li>PLAIN DOSA</li>
-				    <li>MASALA DOSA</li>
-				    <li>MYSORE MASALA DOSA</li>
-				    <li>UTAPPAM</li>
-				    <li>ONION UTAPPAM</li>
-				    <li>MENDU VADA</li>
-				    <li>TAMARIND RICE</li>
-				    <li>SAMBAR</li>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Breakfast</li> <span class="caret"></span></a>
+				     <ul class="dropdown-menu price" role="menu">
+					    <li>IDLI</li>
+					    <li>MASALA IDLI</li>
+					    <li>PLAIN DOSA</li>
+					    <li>MASALA DOSA</li>
+					    <li>MYSORE MASALA DOSA</li>
+					    <li>UTAPPAM</li>
+					    <li>ONION UTAPPAM</li>
+					    <li>MENDU VADA</li>
+					    <li>TAMARIND RICE</li>
+					    <li>SAMBAR</li>
+					 </ul>
 				  </ul>
 				</div>
 				<div class="columns  col-xs-12 col-sm-3">
