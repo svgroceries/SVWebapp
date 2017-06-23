@@ -28,8 +28,8 @@
 		
 		.columns {
 		    float: left;
-		    width: 16.66%;
-		    padding: 8px;
+		    width: 25%;
+		    padding: 5px;
 		}
 		
 		.price {
