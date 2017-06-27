@@ -415,21 +415,12 @@
 			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/nami.jpg" alt="Nami">
-			      <div class="caption">
-			        <h4 class="prodtext">Nami</h4>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
 			      <img class="prodimage" src="images/vegetables/Okra.jpg" alt="Okra">
 			      <div class="caption">
 			        <h4 class="prodtext">Okra</h4>
 			      </div>
 			    </div>
 			  </div>				  
-			 <!--============================= Line-12 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
 			      <img class="prodimage" src="images/vegetables/onion yellow.jpg" alt="Onion Yellow">
@@ -438,6 +429,7 @@
 			      </div>
 			    </div>
 			  </div>
+			 <!--============================= Line-12 ======================================-->			  
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
 			      <img class="prodimage" src="images/vegetables/onion red.jpg" alt="Onion Red">
@@ -712,7 +704,7 @@
 			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Dates Barhi.jpg" alt="Dates Barhi">
+			      <img class="prodimage" src="images/vegetables/Dates Barhi.png" alt="Dates Barhi">
 			      <div class="caption">
 			        <h4 class="prodtext">Dates Barhi</h4>
 			      </div>
