@@ -86,7 +86,7 @@
 			  </div>
 			 <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/banana plantain.png" alt="Banana Plantain">
+			      <img class="prodimage" src="images/vegetables/banana plantain.jpg" alt="Banana Plantain">
 			      <div class="caption">
 			        <h4 class="prodtext">Banana plantain</h4>
 			      </div>
@@ -489,7 +489,7 @@
 			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/petha.jpg" alt="Petha">
+			      <img class="prodimage" src="images/vegetables/Petha.jpg" alt="Petha">
 			      <div class="caption">
 			        <h4 class="prodtext">Petha</h4>
 			      </div>
@@ -498,7 +498,7 @@
 			 <!--============================= Line-14 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Popta.png" alt="Popta">
+			      <img class="prodimage" src="images/vegetables/popta.jpg" alt="Popta">
 			      <div class="caption">
 			        <h4 class="prodtext">Popta</h4>
 			      </div>
@@ -531,7 +531,7 @@
 			 <!--============================= Line-15 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Spinach.png" alt="Spinach">
+			      <img class="prodimage" src="images/vegetables/Spinach.jpg" alt="Spinach">
 			      <div class="caption">
 			        <h4 class="prodtext">Spinach</h4>
 			      </div>
@@ -539,7 +539,7 @@
 			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Squash Kabocha.jpg" alt="Squash Kabocha">
+			      <img class="prodimage" src="images/vegetables/Squash Kabocha.png" alt="Squash Kabocha">
 			      <div class="caption">
 			        <h4 class="prodtext">Squash Kabocha</h4>
 			      </div>
@@ -564,7 +564,7 @@
 			 <!--============================= Line-16 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Squash Opo Round.png" alt="Squash Opo Round">
+			      <img class="prodimage" src="images/vegetables/Squash Opo Round.jpg" alt="Squash Opo Round">
 			      <div class="caption">
 			        <h4 class="prodtext">Squash Opo Round</h4>
 			      </div>
@@ -597,7 +597,7 @@
 			 <!--============================= Line-17 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Taro Root.png" alt="Taro Root">
+			      <img class="prodimage" src="images/vegetables/Taro Root.jpg" alt="Taro Root">
 			      <div class="caption">
 			        <h4 class="prodtext">Taro Root</h4>
 			      </div>
@@ -605,9 +605,9 @@
 			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Tindora.jpg" alt="Tindora">
+			      <img class="prodimage" src="images/vegetables/Tendora.jpg" alt="Tendora">
 			      <div class="caption">
-			        <h4 class="prodtext">Tindora</h4>
+			        <h4 class="prodtext">Tendora</h4>
 			      </div>
 			    </div>
 			  </div>
@@ -630,7 +630,7 @@
 			 <!--============================= Line-18 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Yam.png" alt="Yam">
+			      <img class="prodimage" src="images/vegetables/Yam.jpg" alt="Yam">
 			      <div class="caption">
 			        <h4 class="prodtext">Yam</h4>
 			      </div>
@@ -663,7 +663,7 @@
 			 <!--============================= Line-19 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Banana Manzano.png" alt="Banana Manzano">
+			      <img class="prodimage" src="images/vegetables/Banana Manzano.jpg" alt="Banana Manzano">
 			      <div class="caption">
 			        <h4 class="prodtext">Banana Manzano</h4>
 			      </div>
@@ -696,7 +696,7 @@
 			 <!--============================= Line-20 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Coconut Dry.png" alt="Coconut Dry">
+			      <img class="prodimage" src="images/vegetables/Coconut Dry.jpg" alt="Coconut Dry">
 			      <div class="caption">
 			        <h4 class="prodtext">Coconut Dry</h4>
 			      </div>
@@ -729,7 +729,7 @@
 			 <!--============================= Line-21 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Grapes Green.png" alt="Grapes Green">
+			      <img class="prodimage" src="images/vegetables/Grapes Green.jpg" alt="Grapes Green">
 			      <div class="caption">
 			        <h4 class="prodtext">Grapes Green</h4>
 			      </div>
@@ -762,7 +762,7 @@
 			 <!--============================= Line-22 ======================================-->
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Nectarine.png" alt="Nectarine">
+			      <img class="prodimage" src="images/vegetables/Nectarine.jpg" alt="Nectarine">
 			      <div class="caption">
 			        <h4 class="prodtext">Nectarine</h4>
 			      </div>
@@ -793,14 +793,6 @@
 			    </div>
 			  </div>	
 			 <!--============================= Line-23 ======================================-->
-			  <div class="col-sm-6 col-md-3">
-			    <div class="thumbnail">
-			      <img class="prodimage" src="images/vegetables/Papaya Yellow.png" alt="Papaya Yellow">
-			      <div class="caption">
-			        <h4 class="prodtext">Papaya Yellow</h4>
-			      </div>
-			    </div>
-			  </div>
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
 			      <img class="prodimage" src="images/vegetables/Sugar Cane.jpg" alt="Sugar Cane">
