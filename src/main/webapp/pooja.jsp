@@ -126,43 +126,101 @@
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-		      		<li class="header">Chakki Atta  <span class="caret"></span></li></a>
+		      		<li class="header">Pooja1  <span class="caret"></span></li></a>
 				     <ul class="dropdown-menu price" role="menu">
-						    <li>AASHIRWAD</li>
-						    <li>DEEP</li>
-						    <li>LAXMI</li>
-						    <li>PATANJALI</li>
-						    <li>SUJATA</li>
-						    <li>SWAD</li>
-						    <li>SWARNA</li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
 					</ul>
 				  </ul>
 				</div> 
 			 	<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Durum Atta</li>
-				    <li>GOLDEN TEMPLE</li>
-				    <li>SWAD</li>
-				 </ul>
-				</div> 
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Multigrain Atta</li>
-				    <li>AASHIRWAD</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>PATANJALI</li>
-				    <li>SUJATA</li>
-				    <li>SWAD</li>
-				    <li>SWARNA</li>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Pooja1  <span class="caret"></span></li></a>
+				     <ul class="dropdown-menu price" role="menu">
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+						    <li class="col-xs-12 col-sm-8">
+						    	<div class="thumbnail">
+							      <img class="prodimage" src="images/vegetables/apple.jpg" alt="Apple">
+							      <div class="caption">
+							        <h4 class="prodtext">Apple</h4>
+							      </div>
+							    </div>
+						    </li>
+					</ul>
 				  </ul>
 				</div> 
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header" style="background-color:#4CAF50">Organic Atta</li>
-				    <li>24 MANTRA</li>
-				  </ul>
-				</div>
+				 
+				
 			</div>
 		</div>
 		

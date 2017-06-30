@@ -93,7 +93,7 @@
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">NOODLES</a>
 				<a href="underdevelopment.jsp" class="btn btn-success btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">ORGANIC PRODUCTS</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">PICKELS/CHUTNEYS</a>
-				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">POOJA ITEMS</a>
+				<a href="pooja.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">POOJA ITEMS</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">READY TO EAT</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">RICE</a>
 				<a href="underdevelopment.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">SNACKS</a>

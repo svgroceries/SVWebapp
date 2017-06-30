@@ -125,14 +125,17 @@
 			<div class="row">
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Chakki Atta</li>
-				    <li>AASHIRWAD</li>
-				    <li>DEEP</li>
-				    <li>LAXMI</li>
-				    <li>PATANJALI</li>
-				    <li>SUJATA</li>
-				    <li>SWAD</li>
-				    <li>SWARNA</li>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Chakki Atta  <span class="caret"></span></li></a>
+				     <ul class="dropdown-menu price" role="menu">
+						    <li>AASHIRWAD</li>
+						    <li>DEEP</li>
+						    <li>LAXMI</li>
+						    <li>PATANJALI</li>
+						    <li>SUJATA</li>
+						    <li>SWAD</li>
+						    <li>SWARNA</li>
+					</ul>
 				  </ul>
 				</div> 
 			 	<div class="columns  col-xs-12 col-sm-3">
