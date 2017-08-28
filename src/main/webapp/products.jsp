@@ -74,7 +74,6 @@
 <!-- ************************************************************************************************ -->
 		<div class="container-fluid">
 			<div class="row" style="padding:4px;">
-				<a href="atta_main.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">ATTA</a>
 				<a href="beverages.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">BEVERAGES</a>
 				<a href="candy.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">CANDY</a>
 				<a href="cannedfood.jsp" class="btn btn-primary btn-lg active col-xs-12 col-md-2" style="margin:0 0 2% 2%;" role="button">CANNED FOOD</a>

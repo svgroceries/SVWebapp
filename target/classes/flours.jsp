@@ -38,8 +38,8 @@
 		
 		.columns {
 		    float: left;
-		    width: 33.3%;
-		    padding: 8px;
+		    width: 16.66%;
+		    padding: 5px;
 		}
 		
 		.price {
@@ -135,60 +135,72 @@
 			<div class="row">
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Cracked Wheat(Dhalia)</li>
-				    <li>CRACKED WHEAT COARSE</li>
-				    <li>CRACKED WHEAT FINE</li>
-				    <li>CRACKED WHEAT SOFT WHITE</li>
-				    <li>FADA #1</li>
-				    <li>FADA #2</li>
-				    <li>FADA #3</li>
+				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Atta  <span class="caret"></span></li></a>
+				    <ul class="dropdown-menu price" role="menu">
+					    <li>CHAKKI ATTA</li>
+					    <li>DURUM ATTA</li>
+					    <li>MULTIGRAIN ATTA</li>
+					    <li>ORGANIC ATTA</li>
+					    <li>PATANJALI ATTA</li>
+					    <li>PUNJABI ATTA</li>
+					</ul>
+				  </ul>
+				</div>
+				<div class="columns  col-xs-12 col-sm-3">
+				  <ul class="price">
+				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Cracked Wheat(Dhalia)  <span class="caret"></span></li></a>
+				    <ul class="dropdown-menu price" role="menu">
+					    <li>CRACKED WHEAT COARSE</li>
+					    <li>CRACKED WHEAT FINE</li>
+					    <li>CRACKED WHEAT SOFT WHITE</li>
+					    <li>FADA #1</li>
+					    <li>FADA #2</li>
+					    <li>FADA #3</li>
+					</ul>
 				  </ul>
 				</div>
 				 <div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Flours</li>
-				    <li>ALL PURPOSE FLOUR(MAIDA)</li>
-				    <li>BARLEY FLOUR (JAV)</li>
-				    <li>BAJRI FLOUR</li>
-				    <li>CORN FLOUR</li>
-				    <li>CORN FLOUR-WHITE</li>
-				    <li>CORN FLOUR-YELLOW</li>
-				    <li>DOKLA FLOUR</li>
-				    <li>JUWAR FLOUR</li>
-				    <li>LADDU BESAN</li>
-				    <li>MURIYO FLOUR</li>
-				    <li>MOONG FLOUR</li>
-				    <li>ONDHWA FLOUR</li>
-				    <li>RAGI FLOUR</li>
-				    <li>RAJAGRO FLOUR</li>
-				    <li>RICE FLOUR</li>
-				    <li>SAMO FLOUR</li>
-				    <li>SEMOLINE FLOUR</li>
-				    <li>SINGODA FLOUR</li>
-				    <li>URAD FLOUR</li>
-				    <li>WHOLE WHEAT HALIM</li>
+				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Flours  <span class="caret"></span></li></a>
+				    <ul class="dropdown-menu price" role="menu">
+					    <li>ALL PURPOSE FLOUR(MAIDA)</li>
+					    <li>BARLEY FLOUR (JAV)</li>
+					    <li>BAJRI FLOUR</li>
+					    <li>CORN FLOUR</li>
+					    <li>CORN FLOUR-WHITE</li>
+					    <li>CORN FLOUR-YELLOW</li>
+					    <li>DOKLA FLOUR</li>
+					    <li>JUWAR FLOUR</li>
+					    <li>LADDU BESAN</li>
+					    <li>MURIYO FLOUR</li>
+					    <li>MOONG FLOUR</li>
+					    <li>ONDHWA FLOUR</li>
+					    <li>RAGI FLOUR</li>
+					    <li>RAJAGRO FLOUR</li>
+					    <li>RICE FLOUR</li>
+					    <li>SAMO FLOUR</li>
+					    <li>SEMOLINE FLOUR</li>
+					    <li>SINGODA FLOUR</li>
+					    <li>URAD FLOUR</li>
+					    <li>WHOLE WHEAT HALIM</li>
+					</ul>
 				  </ul>
 				</div>
 				<div class="columns  col-xs-12 col-sm-3">
 				  <ul class="price">
-				    <li class="header">Jalpur Flour</li>
-				    <li>BAJRI FLOUR</li>
-				    <li>DOKLA FLOUR</li>
-				    <li>JUWAR FLOUR</li>
-				    <li>LADDU BESAN</li>
-				    <li>ONDHWA FLOUR</li>
-				    <li>URAD FLOUR</li>
-				  </ul>
-				</div>
-				<div class="columns  col-xs-12 col-sm-3">
-				  <ul class="price">
-				    <li class="header">Rava</li>
-				    <li>IDLY RAVA</li>
-				    <li>IDLY RAVA PARABOILED</li>
-				    <li>SOOJI</li>
-				    <li>SOOJI COARSE</li>
-				    <li>SOOJI FINE</li>
-				    <li>SOOJI ROASTED</li>
+				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		      		<li class="header">Rava  <span class="caret"></span></li></a>
+				    <ul class="dropdown-menu price" role="menu">
+					    <li>IDLY RAVA</li>
+					    <li>IDLY RAVA PARABOILED</li>
+					    <li>SOOJI</li>
+					    <li>SOOJI COARSE</li>
+					    <li>SOOJI FINE</li>
+					    <li>SOOJI ROASTED</li>
+					</ul>
 				  </ul>
 				</div>
 				
